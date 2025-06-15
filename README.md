@@ -2,6 +2,8 @@
 
 A beautiful, responsive travel itinerary generator built with Next.js, TypeScript, Tailwind CSS, and Framer Motion.
 
+-Live Demo: [https://voyage-ai-three.vercel.app/]
+
 ## Features
 
 - 🤖 AI-powered travel recommendations
@@ -13,17 +15,12 @@ A beautiful, responsive travel itinerary generator built with Next.js, TypeScrip
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-
 ### Installation
 
 1. Clone the repository
 \`\`\`bash
-git clone <your-repo-url>
-cd voyageai-travel-generator
+git clone <harshit25jain.git>
+cd Voyage-AI
 \`\`\`
 
 2. Install dependencies
@@ -36,23 +33,7 @@ npm install
 npm run dev
 \`\`\`
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser
-
-## Deployment
-
-### Deploy to Vercel
-
-1. Push your code to GitHub
-2. Connect your GitHub repository to Vercel
-3. Deploy automatically
-
-### Manual Deployment
-
-\`\`\`bash
-npm run build
-npm start
-\`\`\`
-
+   
 ## Tech Stack
 
 - **Framework**: Next.js 14
@@ -64,27 +45,25 @@ npm start
 ## Project Structure
 
 \`\`\`
-├── app/
-│   ├── globals.css
-│   ├── layout.tsx
-│   ├── page.tsx
-│   └── itinerary/
-│       ├── page.tsx
-│       └── itinerary-content.tsx
-├── components/
-│   └── ui/
-│       ├── button.tsx
-│       ├── input.tsx
-│       ├── select.tsx
-│       ├── day-card.tsx
-│       └── map.tsx
-├── data/
-│   └── itinerary.ts
-├── lib/
-│   └── utils.ts
-└── package.json
+-├── app/
+-│   ├── globals.css
+-│   ├── layout.tsx
+-│   ├── page.tsx
+-│   └── itinerary/
+-│       ├── page.tsx
+-│       └── itinerary-content.tsx
+-├── components/
+-│   └── ui/
+-│       ├── button.tsx
+-│       ├── input.tsx
+-│       ├── select.tsx
+-│       ├── day-card.tsx
+-│       └── map.tsx
+-├── data/
+-│   └── itinerary.ts
+-├── lib/
+-│   └── utils.ts
+-└── package.json
 \`\`\`
 
-## License
 
-MIT License
